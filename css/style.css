@@ -1,0 +1,339 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+}
+
+*:hover {
+	-webkit-transition: all .2s ease 0s;
+	transition: all .2s ease 0s;
+}
+
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    color: #5f666a;
+}
+
+.container
+{
+    max-width:90%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+h1, h2, h3 
+{
+    font-family: 'Candal', sans-serif;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/**********************HEADER*********************/
+header nav
+{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+
+header nav a
+{
+    -webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	            -ms-grid-row-align: center;
+            align-self: center;
+    color: #234158;
+    font-family: 'Candal', sans-serif;
+    font-size: 1.4em;
+    padding: 25px;
+}
+
+header nav a+a:hover {
+    color: #fb8a9b;
+    -webkit-transition: all .2s ease 0s;
+	transition: all .2s ease 0s;
+}
+
+header nav a i{
+    display: block!important;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fb8b9b;
+}
+
+header nav a:hover i {
+    color: #203e4d;
+    -webkit-transition: all .2s ease 0s;
+	transition: all .2s ease 0s;
+}
+
+header input
+{
+    background-color: #fb8b9b;
+    width: 100%;
+    border: none;
+    padding: 25px 100px;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    color: white;
+    text-transform: uppercase;
+}
+
+::placeholder
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mutualise, .cloud , .dedie, .logo{
+    color: #fb8b9b;
+}
+
+/*********************BANNIERE************************/
+
+#banniere{
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Candal";
+    text-align: center;
+    padding: 200px 50px;
+}
+
+#banniere h1
+{
+    font-size: 3em;
+}
+
+#banniere p
+{
+    font-size: 2em;
+}
+
+
+/***************************MAIN*************************/
+
+h2
+{
+    color: #234158;
+    border: 1px dashed #46636e;
+    border-bottom: none;
+    padding: 10px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+h3
+{
+    color: #fb8b9b;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main section 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:  30px;
+}
+
+main section h2
+{
+    flex-basis: 100%;
+}
+
+main section article
+{
+    flex: 1;
+    margin: 50px;
+}
+
+.prix
+{
+    font-size: 1.4em;
+    font-weight: bold;
+    color:#fb8a9b;
+    text-align: center;
+}
+
+.host i 
+{
+	display: block;
+    text-align: center;
+	font-size: 3em;
+	color: #fb8a9b;
+	margin: 25px 0 0;
+}
+
+
+/**** PAGES: MUTUALISE, DEDIE, CLOUD *****/
+
+.mutualise .fa-users, 
+.cloud .fa-cloud, 
+.dedie .fa-user, 
+.logo .fa-envelope 
+{
+    color: #213e4e;
+}
+
+.pages article 
+{
+    border: 1px dashed #46636e;
+    padding: 10px;
+    
+}
+
+.pages h3
+{
+    color: white;
+    background-color: #213e4e;
+    padding: 10px;
+    width: 100%;
+    font-weight: normal;
+}
+
+.pages p
+{
+    text-align: left;
+}
+
+.pages article p
+{
+    text-align: center;
+}
+
+.pages a
+{
+    display: inline-block;
+    width: 100%;
+    background-color: #fb8b9b;
+    padding: 10px;
+    color: white;
+    font-family:"Candal", Arial;
+    text-align: center;
+    
+}
+
+.pages ul
+{
+
+    text-align: left;
+    margin: 20px;
+}
+
+.pages li
+{
+    list-style-type: circle;
+}
+
+.pages .prix
+{
+    color: #5f666a;
+}
+
+
+/*** CONTACT ***/
+.contact
+{
+    text-align: center;
+}
+.contact a 
+{
+	color: #fb8b9b;
+}
+
+.contact i
+{
+    display: block;
+    color: #fb8b9b;
+    border-bottom: 1px dashed #fb8b9b;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.contact p
+{
+    line-height: 1;
+}
+
+.contact abbr 
+{
+    font-weight: bold;
+}
+
+iframe
+{
+    width: 100%;
+}
+
+/*******************FOOTER***********************/
+
+footer
+{
+    background-color: #213e4e;
+    padding-top: 30px;
+}
+
+
+footer a
+{
+    font-family: 'Candal', sans-serif;
+}
+
+footer nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*****LICENCE *****/
+#licence {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    background-color: #213e4e;
+    color: #ccc;
+}
+
+#licence img {
+    width: 50px;
+}
+
+
+
+/*********RESPONSIVE******/
+
+@media screen and (max-width: 1024px){
+
+
+    header nav, main section{
+        flex-direction: column;
+        
+    }
+
+    #banniere
+    {
+        padding: 50px 25px;
+    }
+
+    nav a+a 
+    {
+        padding-top: 20px;
+    }
+
+    footer nav {
+       flex-direction: column;
+       text-align: center;
+    }
+}
